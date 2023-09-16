@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 import pickle
 
 # Carregando dados do arquivo CSV do Kaggle
-# url = 'https://raw.githubusercontent.com/TSjadness/IA_Exercicio_Diabetes/blob/main/diabetes_dados-de-treinamento.csv'
+# url = 'https://raw.githubusercontent.com/muzanpvp/IA_Atividade8/blob/main/diabetes_dados-de-treinamento.csv'
 # -*- coding: utf-8 -*-
 """Diabetes-Prediction.ipynb
 
@@ -21,16 +21,16 @@ Importação da base de dados
 """
 
 # Carregando dados do arquivo CSV do Kaggle
-url = 'https://raw.githubusercontent.com/TSjadness/IA_Exercicio_Diabetes/blob/main/diabetes_dados-de-treinamento.csv'
+url = 'https://raw.githubusercontent.com/muzanpvp/IA_Atividade8/blob/main/diabetes_dados-de-treinamento.csv'
 # -*- coding: utf-8 -*-
 base_Treinamento = pd.read_csv(url)
 
 """ base de teste"""
-url_teste = 'https://raw.githubusercontent.com/TSjadness/IA_Exercicio_Diabetes/blob/main/diabete_teste.csv'
+url_teste = 'https://raw.githubusercontent.com/muzanpvp/IA_Atividade8/blob/main/diabete_teste.csv'
 base_teste = pd.read_csv(url_teste)
 
 """base de treinos"""
-url_treino = 'https://raw.githubusercontent.com/TSjadness/IA_Exercicio_Diabetes/blob/main/diabete_treino.csv'
+url_treino = 'https://raw.githubusercontent.com/muzanpvp/IA_Atividade8/blob/main/diabete_treino.csv'
 base_treino = pd.read_csv(url_treino)
 
 """Salvar os dados de treino e teste em arquivos diferentes"""
